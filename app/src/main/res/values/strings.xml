@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AntrianTiketDummy</string>
+    <string name="nama">Nama</string>
+    <string name="no_telp">No.Telp</string>
+    <string name="masuk">Masuk</string>
+    <string name="baru_pertama_kali_silahkan_daftar_sekarang">Baru pertama kali? Silahkan daftar sekarang</string>
+    <string name="daftar">Daftar</string>
+    <string name="alamat">Alamat</string>
+    <string name="silahkan_pilih_loketnya">Silahkan pilih loketnya</string>
+    <string name="daftar_antrian">Daftar Antrian</string>
+    <string name="nomor_antrian_anda_adalah">Nomor antrian anda adalah</string>
+    <string name="_000">000</string>
+    <string name="nomor_antrian_sekarang_sudah">Nomor antrian sekarang sudah</string>
+    <string name="silahkan_ambil_tiketnya_di_loket_yang_sudah_dipilih">Silahkan ambil tiketnya di loket yang sudah dipilih</string>
+    <string name="selesai">Selesai</string>
+    <string name="loket_satu">Loket Satu</string>
+    <string name="loket_dua">Loket Dua</string>
+
+    <string-array name="array_loket">
+        <item>Pilih Loket</item>
+        <item>Loket 1</item>
+        <item>Loket 2</item>
+    </string-array>
+</resources>

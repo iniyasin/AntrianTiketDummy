@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentMasuk">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/silahkan_pilih_loketnya"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="195dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="15dp">
+        <Spinner
+            android:id="@+id/spinner_loket"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </Spinner>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/daftar_antrian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="76dp"
+        android:text="@string/daftar_antrian"
+        android:background="@drawable/btn_rounded_daftar"/>
+</LinearLayout>
